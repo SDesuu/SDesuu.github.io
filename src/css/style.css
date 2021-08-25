@@ -78,12 +78,14 @@ nav{
 
 .li1{
     border: 2px solid #263244;
-    margin: 100px 0px 100px 0px;
+    background: url(../img/obo_mne_photo.png) no-repeat center;
 }
 
+
+
 .tittle_li1 h2{
-   
-    padding: 1000px 0px 1000px 0px;
+    height: 715px;
+    padding-top: 105px;
     color: #263244;
     text-align: center;
     font-size: 33px;
@@ -93,6 +95,17 @@ nav{
 
 
 }
+
+
+.tittle_li1 h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto 0;
+    background-color: #d17700;
+}
+
 
 
 
