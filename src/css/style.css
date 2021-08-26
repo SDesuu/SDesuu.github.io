@@ -37,8 +37,10 @@ nav{
     width: 100%;
     height: calc(100% - 60px);
     background: url(../img/boy.jpg.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
-
+    box-shadow:inset 0px -14px 28px  rgba(0, 0, 0, 0.25);
 }
+
+
 
 
 .tittle_container{
@@ -46,6 +48,7 @@ nav{
     margin: 420px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    
 }
 
 .tittle_container h1{
@@ -78,13 +81,14 @@ nav{
 
 .li1{
     border: 2px solid #263244;
-    background: url(../img/obo_mne_photo.png) no-repeat center;
+    
 }
 
 
 
 .tittle_li1 h2{
-    height: 715px;
+    
+    max-height: 715px;
     padding-top: 105px;
     color: #263244;
     text-align: center;
@@ -96,6 +100,10 @@ nav{
 
 }
 
+.li1_photo{
+   text-align: center;
+
+}
 
 .tittle_li1 h2:after{
     content: "";
@@ -107,7 +115,10 @@ nav{
 }
 
 
-
+.tittle_li1 p{
+    height: 150px;
+    text-align: center;
+}
 
 
 
