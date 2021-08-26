@@ -1,16 +1,14 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-nav{
+nav {
     width: 100%;
     height: 60px;
     background: #344051;
 }
 
-.logo{
+.logo {
     color: #fff;
     font-size: 30px;
     line-height: 60px;
@@ -18,55 +16,47 @@ nav{
     float: left;
 }
 
-.menu{
+.menu {
     float: left;
     padding-left: 420px;
 }
 
-.menu li{   
+.menu li {
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    
 }
 
-.main{
+.main {
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/boy.jpg.png) 90% 100%/auto 85% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
-    box-shadow:inset 0px -14px 28px  rgba(0, 0, 0, 0.25);
+    background: url(../img/boy.jpg.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+    box-shadow: inset 0px -14px 28px rgba(0, 0, 0, 0.25);
 }
 
-
-
-
-.tittle_container{
+.tittle_container {
     float: left;
     margin: 420px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
-    
 }
 
-.tittle_container h1{
+.tittle_container h1 {
     font-size: 60px;
     font-weight: bold;
 }
 
-
-.tittle_container h4{
+.tittle_container h4 {
     margin-top: 40px;
-
     font-size: 18px;
     font-weight: bold;
     color: #79818d;
 }
 
-
-.tittle_container input{
+.tittle_container input {
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -78,17 +68,11 @@ nav{
     margin: 55px 6px 0px 10px;
 }
 
-
-.li1{
-    border: 2px solid #263244;
-    
+.li1 {
+    height: 715px;
 }
 
-
-
-.tittle_li1 h2{
-    
-    max-height: 715px;
+.tittle_li1 h2 {
     padding-top: 105px;
     color: #263244;
     text-align: center;
@@ -96,32 +80,125 @@ nav{
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 30px;
-
-
 }
 
-.li1_photo{
-   text-align: center;
-
+.li1_photo {
+    text-align: center;
 }
 
-.tittle_li1 h2:after{
+.tittle_li1 h2:after {
     content: "";
     display: block;
-    width: 60px;
+    width: 70px;
     height: 3px;
     margin: 60px auto 0;
     background-color: #d17700;
 }
 
-
-.tittle_li1 p{
-    height: 150px;
-    text-align: center;
+.tittle_li1 h4 {
+    padding-top: 30px;
+    margin-top: 30px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    text-align: justify;
+    width: 730px;
+    color: #a6aab0;
 }
 
+.li1_btn {
+    padding-top: 37px;
+    margin-left: 46%;
+    padding-bottom: 100px;
+}
 
+.li1_btn input {
+    height: 30px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    background: none;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    background: url(../img/li1_button.png) no-repeat left;
+    padding: 0px 12px 0px 30px;
+}
 
-.li2{
-    padding-top: 1000px;
+.li2 {
+    height: 525px;
+    background: url(../img/li2_background.jpg) no-repeat;
+}
+
+.li2 h2 {
+    padding-top: 107px;
+    color: #263244;
+    text-align: center;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.li2 h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 30px auto 0;
+    background-color: #d17700;
+}
+
+.icons {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-left: 25%;
+}
+
+.tittle_li2 {
+    padding-top: 30px;
+    margin-left: 17%;
+}
+
+.tittle_li2 h3 {
+    color: orange;
+    font-size: 18.5px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Bahnschrift';
+}
+
+.tittle_li2 p {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.li2_menu1 {
+    float: left;
+    display: block;
+    width: 210px;
+    margin-left: 82px;
+}
+
+.li2_menu2 {
+    float: left;
+    display: block;
+    width: 210px;
+    margin-left: 82px;
+}
+
+.li2_menu3 {
+    float: left;
+    display: block;
+    width: 210px;
+    margin-left: 82px;
+}
+
+.li2_menu4 {
+    float: left;
+    display: block;
+    width: 210px;
+    margin-left: 82px;
 }
