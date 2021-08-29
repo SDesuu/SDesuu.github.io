@@ -202,3 +202,80 @@ nav {
     width: 210px;
     margin-left: 82px;
 }
+
+
+
+.top_li3 {
+    height: auto;
+    text-align: center;
+    float: center;
+}
+
+.top_li3 h2{
+    padding-top: 105px;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #384354;
+
+}
+
+.top_li3 h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 30px auto 0;
+    background-color: #d17700;
+}
+
+.top_li3 h5{
+    padding-top: 35px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.image_li3 {
+    margin: 20px 390px 0px 390px;
+    height: 590px;
+    width: 1170px;
+}
+
+
+.botm_left {
+    border: 2px solid black;
+    width: 285px;
+    height: 220px;
+    margin: 0px 0px 0px 390px;
+    float: left;
+}
+
+.botm_left h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.project_name {
+    border: 2px solid black;
+    width: 890px;
+    height: 220px;
+    margin-left: 670px;
+}
+
+.project_name h3{
+    text-align: ;
+}
+
+.project_name h5 {
+    
+}
+
+
+
+
+
+
+
+
+
